@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- swiper-css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/reset.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
+
+</head>
+
+
+
+<body>
+
+
+
+  <!-- <div class="left_line"></div>
+  <div class="right_line"></div> -->
+
+  <div class="wrapper">
+
+    <header class="l-header">
+
+
+        <div class="header_img">
+          <div class="header__logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_sp.png" alt="">
+          </div>
+          <picture>
+            <source media="(max-width: 480px)" srcset="./assets/img/header_sp.png" width="" height="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/header_pc.png" alt="" width="" height="">
+          </picture>
+
+          <div class="header__cta-box pc">
+            <a href="" class="cta01">
+            </a>
+            <a href="" class="cta02">
+            </a>
+            <a href="" class="cta03">
+            </a>
+          </div>
+        </div>
+
+        <nav class="menu-right">
+
+
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hamburger.png" alt="">
+          <div class="hamburger__cta-box">
+            <a href="" class="cta01">
+            </a>
+            <div class="ham_box">
+              <a href="" class="cta02">
+              </a>
+              <a href="" class="cta03">
+              </a>
+            </div>
+          </div>
+        </nav>
+        <!-- ハンバーガーメニュー -->
+        <div id="hamburger">
+          <span></span>
+        </div>
+
+
+    </header>
+
+
+    <main>
+
+      <section class="section01 section_cta">
+        <picture>
+          <source media="(max-width: 480px)" srcset="./assets/img/fv_sp.png" width="" height="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fv_pc.png" alt="" width="" height="">
+        </picture>
+
+        <div class="cta-box">
+          <a href="" class="cta01">
+          </a>
+          <div class="cta-flex">
+            <a href="" class="cta02">
+            </a>
+            <a href="" class="cta03">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section02">
+        <picture>
+          <source media="(max-width: 480px)" srcset="./assets/img/section02_sp.png" width="" height="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/section02_pc.png" alt="" width="" height="">
+        </picture>
+      </section>
+
+      <section class="section03">
+        <picture>
+          <source media="(max-width: 480px)" srcset="./assets/img/section03_sp.png" width="" height="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/section03_pc.png" alt="" width="" height="">
+        </picture>
+      </section>
+
+      <section class="section04">
+        <picture>
+          <source media="(max-width: 480px)" srcset="./assets/img/section04_sp.png" width="" height="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/section04_pc.png" alt="" width="" height="">
+        </picture>
+      </section>
+
+
+
+      <section class="section05">
+        <picture>
+          <source media="(max-width: 480px)" srcset="./assets/img/section05-1_sp.png" width="" height="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/section05-1_pc.png" alt="" width="" height="">
+        </picture>
+        <picture>
+          <source media="(max-width: 480px)" srcset="./assets/img/section05-2_sp.png" width="" height="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/section05-2_pc.png" alt="" width="" height="">
+        </picture>
+      </section>
+
+      <section class="section_cta middle">
+        <picture>
+          <source media="(max-width: 480px)" srcset="./assets/img/cta_sp.png" width="" height="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cta_pc.png" alt="" width="" height="">
+        </picture>
+
+        <div class="cta-box">
+          <a href="" class="cta01">
+          </a>
+          <div class="cta-flex">
+            <a href="" class="cta02">
+            </a>
+            <a href="" class="cta03">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section06">
+        <picture>
+          <source media="(max-width: 480px)" srcset="./assets/img/section06-1_sp.png" width="" height="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/section06-1_pc.png" alt="" width="" height="">
+        </picture>
+
+        <picture>
+          <source media="(max-width: 480px)" srcset="./assets/img/section06-2_sp.png" width="" height="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/section06-2_pc.png" alt="" width="" height="">
+        </picture>
+      </section>
+
+      <section class="section07">
+        <div class="section__inner">
+          <h2>施術までの流れ</h2>
+          <div class="swiper-box">
+            <!-- Slider main container -->
+            <div class="swiper1 swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <picture>
+                  <source media="(max-width: 480px)" srcset="./assets/img/swiper_img01-sp.png" width="" height="">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/swiper_img01-pc.png" alt="" width="" height="">
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                  <source media="(max-width: 480px)" srcset="./assets/img/swiper_img02-sp.png" width="" height="">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/swiper_img02-pc.png" alt="" width="" height="">
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                  <source media="(max-width: 480px)" srcset="./assets/img/swiper_img03-sp.png" width="" height="">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/swiper_img03-pc.png" alt="" width="" height="">
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                  <source media="(max-width: 480px)" srcset="./assets/img/swiper_img04-sp.png" width="" height="">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/swiper_img04-pc.png" alt="" width="" height="">
+                  </picture>
+                </div>
+
+
+              </div>
+            </div>
+            <!-- ページネーション -->
+            <div class="swiper-pagination"></div>
+            <!-- 前後の矢印 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section08">
+        <h2>よくある質問</h2>
+
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span class="title">Q.包茎手術は痛みを伴いますか？</span>
+              <span class="icon">➖</span>
+            </button>
+            <div class="accordion-content open">
+              <p>手術中は局所麻酔を使用するため、痛みを感じることはほとんどありません。術後の痛みも個人差がありますが、適切な鎮痛剤を処方いたしますので、ご安心ください。</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span class="title">Q.手術後、すぐに仕事や日常生活に戻れますか？</span>
+              <span class="icon">➕</span>
+            </button>
+            <div class="accordion-content">
+              <p>デスクワークなどの軽作業であれば、翌日から可能な場合が多いです。ただし、肉体労働や激しい運動を伴うお仕事の場合は、数日間の休養をおすすめします。</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span class="title">Q.手術後のシャワーや入浴はいつから可能ですか？</span>
+              <span class="icon">➕</span>
+            </button>
+            <div class="accordion-content">
+              <p>シャワーは翌日から可能ですが、入浴やサウナは患部の回復状況により、1～2週間程度控えていただくことを推奨します。詳しくは担当医の指示に従ってください。</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span class="title">Q.手術後の通院は必要ですか？</span>
+              <span class="icon">➕</span>
+            </button>
+            <div class="accordion-content">
+              <p>基本的には術後の経過観察のため、1～2回の通院をお願いしております。</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span class="title">Q.未成年でも手術を受けられますか？</span>
+              <span class="icon">➕</span>
+            </button>
+            <div class="accordion-content">
+              <p>未成年の方が手術を希望される場合、保護者の同意が必要となります。詳細はカウンセリング時にご説明いたします。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section09">
+        <picture>
+          <source media="(max-width: 480px)" srcset="./assets/img/section09_sp.png" width="" height="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/section09_pc.png" alt="" width="" height="">
+        </picture>
+      </section>
+
+      <section class="section_cta bottom">
+        <picture>
+          <source media="(max-width: 480px)" srcset="./assets/img/cta_sp.png" width="" height="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cta_pc.png" alt="" width="" height="">
+        </picture>
+
+        <div class="cta-box">
+          <a href="" class="cta01">
+          </a>
+          <div class="cta-flex">
+            <a href="" class="cta02">
+            </a>
+            <a href="" class="cta03">
+            </a>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+    <footer class="footer">
+      <div class="section__inner">
+        <h2>概要・アクセス</h2>
+        <div class="footer__img">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="">
+        </div>
+        <div class="footer__content">
+          <div class="footer__content-left">
+            <div class="news__content">
+              <ul class="news-list">
+                <li class="news-item">
+                  <span class="news-date">TEL</span>
+                  <span class="news-title">06-6772-3456</span>
+                </li>
+                <li class="news-item">
+                  <span class="news-date">住所</span>
+                  <span class="news-title">〒543-0031<br>大阪府大阪市天王寺区石ケ辻町18−21上六ときビル 4階</span>
+                </li>
+                <li class="news-item">
+                  <span class="news-date">診療時間</span>
+                  <span class="news-title">水～日　10:30～19:00<br>（休診日：月・火）</span>
+                </li>
+                <li class="news-item">
+                  <span class="news-date">アクセス</span>
+                  <span class="news-title">近鉄「大阪上本町駅」徒歩1分<br>大阪メトロ「谷町九丁目駅」徒歩7分</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__content-right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.6215659737986!2d135.51791657567222!3d34.66425897293259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7b6df5464c9%3A0x72a0024a71234bcf!2z44OO44Oq44K5576O5a6544Kv44Oq44OL44OD44Kv!5e0!3m2!1sja!2sjp!4v1744011408054!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="footer__img bottom">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="">
+        </div>
+      </div>
+
+      <div class="copy">
+        <p>〒543-0031<br>大阪府大阪市天王寺区石ケ辻町18−21上六ときビル 4階</p>
+        <p>&copy;ノリス美容クリニック</p>
+      </div>
+
+    </footer>
+
+
+  </div>
+
+  <!-- Scripts -->
+  <!-- swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
+
+
+
+</body>
+</html>
